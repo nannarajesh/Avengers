@@ -542,6 +542,26 @@
             </objects>
             <point key="canvasLocation" x="5382" y="-503"/>
         </scene>
+        <!--Annotation Controller-->
+        <scene sceneID="LcR-Pd-05k">
+            <objects>
+                <viewController storyboardIdentifier="AnnotationController" id="cO1-p1-o3z" customClass="AnnotationController" customModule="HousingForPK" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VRA-GI-GwH"/>
+                        <viewControllerLayoutGuide type="bottom" id="hIu-y1-Hxi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Net-ve-qe1">
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="540" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5PA-Sv-5ph" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5398.5" y="346.5"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="D8a-DS-geE">
             <objects>
@@ -560,7 +580,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fKd-zW-JSN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4088" y="-273"/>
+            <point key="canvasLocation" x="4363.5" y="-465"/>
         </scene>
         <!--Validate Owner Tweet-->
         <scene sceneID="qYS-ab-SK4">
@@ -1149,7 +1169,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wUE-T9-HKl">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
-                                <state key="normal" title="Open Camera" backgroundImage="blue.png">
+                                <state key="normal" title="Choose Place" backgroundImage="blue.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1165,7 +1185,7 @@
                                 <string key="text">The Directions
 The importance of orientation of a building is not only for saving energy but also to have a better house design, which not only gives comfortable living but also gives good health, prosperity and wealth to the house owners/occupiers and these families. There lies a co-relation between the rotational scenario of Directionsthe planets and the house design and their different directions with respect of NORTH. The building of any type and its construction meets the purpose if proper orientation has been given using suitable local building material. It increases not only its life span but also improves the condition of occupants. There are instances where buildings are not planned according to required local orientation were lost or deteriorated much faster then the buildings having built with proper studies of orientation. </string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="48" y="260" width="823" height="157"/>
@@ -1175,12 +1195,32 @@ The importance of orientation of a building is not only for saving energy but al
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <string key="text">Step1: Open Camera  Step2: Set a property place Ex. Bedroom in camera window  Step3: Double Tap on Camera Layer  Step4: Vaastu Information about property place will be given</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="48" y="504" width="829" height="152"/>
                                 </variation>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Vaastu Place" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SAf-Sg-H9E">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="320" y="437" width="215" height="38"/>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mvW-QP-4ft">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="314" y="436" width="215" height="40"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnOpenCameraTouchUpInside:" destination="XGX-az-ZnQ" eventType="touchUpInside" id="WA4-v0-muK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -1189,6 +1229,8 @@ The importance of orientation of a building is not only for saving energy but al
                                 <exclude reference="wUE-T9-HKl"/>
                                 <exclude reference="fZE-uu-ILA"/>
                                 <exclude reference="gQV-EC-OoH"/>
+                                <exclude reference="SAf-Sg-H9E"/>
+                                <exclude reference="mvW-QP-4ft"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -1197,12 +1239,17 @@ The importance of orientation of a building is not only for saving energy but al
                                 <include reference="wUE-T9-HKl"/>
                                 <include reference="fZE-uu-ILA"/>
                                 <include reference="gQV-EC-OoH"/>
+                                <include reference="SAf-Sg-H9E"/>
+                                <include reference="mvW-QP-4ft"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Find Vaastu for Properties" id="hak-LI-kiH"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="904" height="768"/>
+                    <connections>
+                        <outlet property="txtFieldVaastu" destination="SAf-Sg-H9E" id="eHx-ow-88P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WNL-Oa-oS5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

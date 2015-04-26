@@ -164,28 +164,35 @@ class ViewController: BaseViewController , TableViewSelectorDelegate,UITextField
     
     
     @IBAction func btnValidateIt(sender: AnyObject) {
-    
+        
         
         essentialArr = objTrainTheClassifier.trainTheEssentialClassifier()
         goOutArr = objTrainTheClassifier.trainTheGoOutClassifier()
         utilitiesArr = objTrainTheClassifier.trainTheUtilitiesClassifier()
         communicationArr = objTrainTheClassifier.trainTheCommunicationClassifier()
         
-        txtBank.text = nagavara[0] + essentialArr[2]
-        txtHospitals.text = nagavara[1] + essentialArr[2]
-        txtSchools.text = nagavara[2] + essentialArr[2]
-        txtParks.text = nagavara[3] + essentialArr[2]
+        var trainClass : [Double] = objTrainTheClassifier.trainClassifier1() // calculate value for trainClassifier1
+        
+        
+        
+        txtBank.text = "Prob :" + "\(trainClass[0])"
+        txtHospitals.text = "Prob" + "\(trainClass[1])"
+        txtSchools.text = "Prob" + "\(trainClass[2])"
+        txtParks.text = "Prob" + "\(trainClass[3])"
+        
+        
+        // Rest of them is calculate as like previous time
         txtResturants.text = nagavara[4] + essentialArr[2]
         txtMovieTheater.text = nagavara[5] + essentialArr[2]
         txtBars.text = nagavara[6] + essentialArr[2]
         txtGrocery.text = nagavara[7] + essentialArr[2]
         txtFarmacy.text = nagavara[8] + essentialArr[2]
-        txtShoppingMall.text = nagavara[9] + essentialArr[2]
-        txtBus.text = nagavara[10] + essentialArr[2]
-        txtTrain.text = nagavara[11] + essentialArr[2]
+        txtTrain.text = nagavara[9] + essentialArr[2]
+        txtShoppingMall.text = nagavara[10] + essentialArr[2]
+        txtBus.text = nagavara[11] + essentialArr[2]
         txtAirport.text = nagavara[12] + essentialArr[2]
         
-    
+        
     }
     
     

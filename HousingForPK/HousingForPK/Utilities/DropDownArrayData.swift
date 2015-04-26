@@ -60,5 +60,9 @@ class DropDownArrayData: NSObject {
     class func getCommunications()-> NSArray{
         return ["Bus","Train","AirPort"]
     }
+    
+    class func getVaastuPlaces()-> NSArray {
+        return ["Bed Room","Kitchen","Bathroom, Hall, Living room, Study room"]
+    }
    
 }
