@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F4A1D5AD-4269-4820-8DE6-29F8BDDD1E7D</string>
 	<key>IDESourceControlProjectName</key>
-	<string>HousingForPK</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>F008F3CB5A44DBC5CA49EB43B151D7C1AA4029B2</key>
 		<string>https://github.com/nannarajesh/Avengers.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HousingForPK/HousingForPK.xcodeproj</string>
+	<string>HousingForPK/HousingForPK.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F008F3CB5A44DBC5CA49EB43B151D7C1AA4029B2</key>
