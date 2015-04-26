@@ -40,8 +40,8 @@ class SplashViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        //self.initilizeAllVideo()
-        self.MovieComplete(nil)
+        self.initilizeAllVideo()
+        //self.MovieComplete(nil)
         
     }
     func initilizeAllVideo()

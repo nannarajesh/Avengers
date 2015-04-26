@@ -93,7 +93,7 @@ class VaastuViewController: BaseViewController, TableViewSelectorDelegate {
         }
         
         
-        
+        UIAlertView(title: "No Compass!", message: "This device does not have the ability to measure magnetic fields.", delegate: nil, cancelButtonTitle: "Ok")
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool
