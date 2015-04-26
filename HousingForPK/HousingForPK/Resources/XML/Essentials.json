@@ -1,0 +1,44 @@
+{
+    "Nagavara": [
+                 {
+                 "Latitude": "13.036873",
+                 "Longitude": "77.620007",
+                 "BankOrATMs": "Yes",
+                 "Hospitals": "No",
+                 "Schools": "Yes",
+                 "Parks": "Yes"
+                 },
+                 {
+                 "Latitude": "13.042282",
+                 "Longitude": "77.621369",
+                 "BankOrATMs": "Yes",
+                 "Hospitals": "No",
+                 "Schools": "Yes",
+                 "Parks": "Yes"
+                 },
+                 {
+                 "Latitude": "13.044582",
+                 "Longitude": "77.610641",
+                 "BankOrATMs": "Yes",
+                 "Hospitals": "No",
+                 "Schools": "Yes",
+                 "Parks": "Yes"
+                 },
+                 {
+                 "Latitude": "13.041551",
+                 "Longitude": "13.041551",
+                 "BankOrATMs": "Yes",
+                 "Hospitals": "Yes",
+                 "Schools": "Yes",
+                 "Parks": "Yes"
+                 },
+                 {
+                 "Latitude": "13.046526",
+                 "Longitude": "77.627356",
+                 "BankOrATMs": "Yes",
+                 "Hospitals": "Yes",
+                 "Schools": "Yes",
+                 "Parks": "Yes"
+                 }
+                 ]
+}

@@ -1,0 +1,39 @@
+{
+    "Nagavara": [
+                 {
+                 "Latitude": "13.036873",
+                 "Longitude": "77.620007",
+                 "Grocery": "Yes",
+                 "Farmacy": "No",
+                 "ShoppingMall": "Yes"
+                 },
+                 {
+                 "Latitude": "13.042282",
+                 "Longitude": "77.621369",
+                 "Grocery": "Yes",
+                 "Farmacy": "Yes",
+                 "ShoppingMall": "Yes"
+                 },
+                 {
+                 "Latitude": "13.044582",
+                 "Longitude": "77.610641",
+                 "Grocery": "Yes",
+                 "Farmacy": "Yes",
+                 "ShoppingMall": "Yes"
+                 },
+                 {
+                 "Latitude": "13.041551",
+                 "Longitude": "13.041551",
+                 "Grocery": "Yes",
+                 "Farmacy": "Yes",
+                 "ShoppingMall": "Yes"
+                 },
+                 {
+                 "Latitude": "13.046526",
+                 "Longitude": "77.627356",
+                 "Grocery": "Yes",
+                 "Farmacy": "Yes",
+                 "ShoppingMall": "Yes"
+                 }
+                 ]
+}

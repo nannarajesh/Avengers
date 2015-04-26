@@ -1,0 +1,39 @@
+{
+    "Nagavara": [
+                 {
+                 "Latitude": "13.036873",
+                 "Longitude": "77.620007",
+                 "Resturants": "Yes",
+                 "Movie Theater": "No",
+                 "BarsOrNightClubs": "No"
+                 },
+                 {
+                 "Latitude": "13.042282",
+                 "Longitude": "77.621369",
+                 "Resturants": "Yes",
+                 "Movie Theater": "No",
+                 "BarsOrNightClubs": "No"
+                 },
+                 {
+                 "Latitude": "13.044582",
+                 "Longitude": "77.610641",
+                 "Resturants": "Yes",
+                 "Movie Theater": "Yes",
+                 "BarsOrNightClubs": "No"
+                 },
+                 {
+                 "Latitude": "13.041551",
+                 "Longitude": "13.041551",
+                 "Resturants": "Yes",
+                 "Movie Theater": "Yes",
+                 "BarsOrNightClubs": "No"
+                 },
+                 {
+                 "Latitude": "13.046526",
+                 "Longitude": "77.627356",
+                 "Resturants": "Yes",
+                 "Movie Theater": "Yes",
+                 "BarsOrNightClubs": "No"
+                 }
+                 ]
+}
