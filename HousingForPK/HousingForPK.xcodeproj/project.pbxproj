@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182417321AECD36A00F6EF21 /* Edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 182417301AECD36A00F6EF21 /* Edit.png */; };
+		182417331AECD36A00F6EF21 /* Erase.png in Resources */ = {isa = PBXBuildFile; fileRef = 182417311AECD36A00F6EF21 /* Erase.png */; };
 		183CCE3D1AEC720500F4BF70 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CCE3C1AEC720500F4BF70 /* iCarousel.m */; };
 		183CCF6A1AEC7F7900F4BF70 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 183CCF691AEC7F7900F4BF70 /* compass.png */; };
 		183CCF6D1AEC83E600F4BF70 /* downArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 183CCF6B1AEC83E600F4BF70 /* downArrow.png */; };
 		183CCF6E1AEC83E600F4BF70 /* rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 183CCF6C1AEC83E600F4BF70 /* rightArrow.png */; };
 		183CCF711AEC83F000F4BF70 /* downArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183CCF6F1AEC83F000F4BF70 /* downArrow@2x.png */; };
 		183CCF721AEC83F000F4BF70 /* rightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183CCF701AEC83F000F4BF70 /* rightArrow@2x.png */; };
+		185EE7E91AECD0830027D1E5 /* VaastuCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185EE7E81AECD0830027D1E5 /* VaastuCameraViewController.swift */; };
 		18AE36DD1AEC706D003BC922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE362E1AEC706D003BC922 /* AppDelegate.swift */; };
 		18AE36E11AEC706D003BC922 /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE36361AEC706D003BC922 /* CustomPointAnnotation.swift */; };
 		18AE36E31AEC706D003BC922 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE36391AEC706D003BC922 /* Property.swift */; };
@@ -188,6 +191,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		182417301AECD36A00F6EF21 /* Edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Edit.png; sourceTree = "<group>"; };
+		182417311AECD36A00F6EF21 /* Erase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Erase.png; sourceTree = "<group>"; };
 		183CCE3B1AEC720500F4BF70 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		183CCE3C1AEC720500F4BF70 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		183CCF691AEC7F7900F4BF70 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
@@ -195,6 +200,7 @@
 		183CCF6C1AEC83E600F4BF70 /* rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow.png; sourceTree = "<group>"; };
 		183CCF6F1AEC83F000F4BF70 /* downArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "downArrow@2x.png"; sourceTree = "<group>"; };
 		183CCF701AEC83F000F4BF70 /* rightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightArrow@2x.png"; sourceTree = "<group>"; };
+		185EE7E81AECD0830027D1E5 /* VaastuCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaastuCameraViewController.swift; sourceTree = "<group>"; };
 		18AE362E1AEC706D003BC922 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18AE36361AEC706D003BC922 /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
 		18AE36391AEC706D003BC922 /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
@@ -518,6 +524,8 @@
 		18AE36461AEC706D003BC922 /* 1x */ = {
 			isa = PBXGroup;
 			children = (
+				182417301AECD36A00F6EF21 /* Edit.png */,
+				182417311AECD36A00F6EF21 /* Erase.png */,
 				183CCF6B1AEC83E600F4BF70 /* downArrow.png */,
 				183CCF6C1AEC83E600F4BF70 /* rightArrow.png */,
 				183CCF691AEC7F7900F4BF70 /* compass.png */,
@@ -746,6 +754,7 @@
 		18AE36CF1AEC706D003BC922 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				185EE7E81AECD0830027D1E5 /* VaastuCameraViewController.swift */,
 				18AE36D01AEC706D003BC922 /* AboutUsViewController.swift */,
 				18AE36D11AEC706D003BC922 /* AnnotationController.swift */,
 				18AE36D21AEC706D003BC922 /* BaseViewController.swift */,
@@ -1051,6 +1060,7 @@
 				18AE373D1AEC706D003BC922 /* property_image10.png in Resources */,
 				18AE37231AEC706D003BC922 /* tweets@2x.png in Resources */,
 				18AE37201AEC706D003BC922 /* sell_rent_property@2x.png in Resources */,
+				182417331AECD36A00F6EF21 /* Erase.png in Resources */,
 				18AE37101AEC706D003BC922 /* color4@2x.png in Resources */,
 				18AE36F51AEC706D003BC922 /* color9.png in Resources */,
 				18AE372E1AEC706D003BC922 /* property_image11@2x.png in Resources */,
@@ -1069,6 +1079,7 @@
 				18AE374C1AEC706D003BC922 /* splash_video.m4v in Resources */,
 				18AE373C1AEC706D003BC922 /* property_image1.png in Resources */,
 				18AE36FC1AEC706D003BC922 /* pinbg.png in Resources */,
+				182417321AECD36A00F6EF21 /* Edit.png in Resources */,
 				18AE37141AEC706D003BC922 /* color8@2x.png in Resources */,
 				18AE36FA1AEC706D003BC922 /* green_pin.png in Resources */,
 				18AE37501AEC706D003BC922 /* GoOut.json in Resources */,
@@ -1125,6 +1136,7 @@
 				18AE37541AEC706D003BC922 /* DropDownArrayData.swift in Sources */,
 				18AE375A1AEC706D003BC922 /* UIButtonBordered.swift in Sources */,
 				18AE37561AEC706D003BC922 /* FontConstant.swift in Sources */,
+				185EE7E91AECD0830027D1E5 /* VaastuCameraViewController.swift in Sources */,
 				18AE375B1AEC706D003BC922 /* WhiteArrow.swift in Sources */,
 				18AE36E41AEC706D003BC922 /* TodayTask.swift in Sources */,
 				18AE376E1AEC706D003BC922 /* ViewController.swift in Sources */,

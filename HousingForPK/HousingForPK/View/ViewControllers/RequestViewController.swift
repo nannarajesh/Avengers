@@ -456,7 +456,7 @@ class RequestViewController: BaseViewController,UIImagePickerControllerDelegate,
                 annotationVC?.txtAnnotationDetails.text = captionArray[indexPath.row] as? String
                 indexValue = indexPath.row
                 indexValuePath = indexPath
-//                self.navigationController?.pushViewController(annotationVC!, animated: false)
+                //                self.navigationController?.pushViewController(annotationVC!, animated: false)
                 annotationVC!.modalPresentationStyle = UIModalPresentationStyle.FormSheet
                 self.presentViewController(annotationVC!, animated: true, completion: nil)
                 collectionView.reloadData()
@@ -467,6 +467,7 @@ class RequestViewController: BaseViewController,UIImagePickerControllerDelegate,
         }
         
     }
+        
 
     /*
     // MARK: - Navigation

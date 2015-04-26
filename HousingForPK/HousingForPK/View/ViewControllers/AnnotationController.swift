@@ -66,7 +66,17 @@ class AnnotationController: UIViewController,UITextViewDelegate {
         
         self.designScreen()
         txtAnnotationDetails.delegate = self
+        bckGnd!.frame = CGRectMake(0, 0, 1024, 2000)
+        signView!.frame = CGRectMake(-10, 0, 552, 1000)
         
+        selectedImage?.frame = CGRectMake(10, 95, 542, 430)
+        btnText?.frame  = CGRectMake(570-50-242, 626-70, 25, 25)
+        btnDone!.frame = CGRectMake(690-242, 105-70, 70, 25)
+        btnCancel?.frame = CGRectMake(680-242, 626-70, 25, 25)
+        txtAnnotationDetails.frame = CGRectMake(0, 0, 542, 90)
+        btnRedo!.frame = CGRectMake(400-50-242, 626-70, 25, 25)
+        println("Landscape")
+
         self.view.backgroundColor = UIColor.clearColor()
         self.navigationItem.rightBarButtonItem?.title = "Done"
         self.navigationController?.navigationBarHidden = true
@@ -224,7 +234,7 @@ class AnnotationController: UIViewController,UITextViewDelegate {
         self.view.addSubview(signView!)
         signView!.addSubview(selectedImage!)
         
-        btnRedo!.setBackgroundImage(UIImage(named: "icon_eraser"), forState: UIControlState.Normal)
+        btnRedo!.setBackgroundImage(UIImage(named: "Erase.png"), forState: UIControlState.Normal)
         btnRedo!.layer.cornerRadius = 3.0
         btnRedo!.backgroundColor = UIColor.blackColor()
         btnRedo!.addTarget(self, action: "btnRedoClk:", forControlEvents: UIControlEvents.TouchUpInside)
@@ -249,7 +259,7 @@ class AnnotationController: UIViewController,UITextViewDelegate {
         self.view.addSubview(btnDone!)
         
         btnText?.layer.cornerRadius = 3.0
-        btnCancel!.setBackgroundImage(UIImage(named: "icon_family_2x"), forState: UIControlState.Normal)
+        btnCancel!.setBackgroundImage(UIImage(named: "Edit.png"), forState: UIControlState.Normal)
         btnCancel?.backgroundColor = UIColor.blackColor()
         btnCancel?.addTarget(self, action: "btnTextClk:", forControlEvents: UIControlEvents.TouchUpInside)
         
